@@ -16,6 +16,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_05_173114) do
 
   create_table "greetings", force: :cascade do |t|
     t.string "content"
+    t.string "language"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
